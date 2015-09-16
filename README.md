@@ -8,7 +8,7 @@ open source and available for free download.
 ## License
 
 Keys is released under the GPLv2 (or any later version). See full license
-in [LICENSE]().
+in [LICENSE](LICENSE).
 
 ## Installing
 
