@@ -1,10 +1,11 @@
 images_url: "//assets.vsco.co/assets/images"
-vsco_url: "https://vsco.co"
-keys_url: "https://vsco.github.io/keys/"
+vsco_url: https://vsco.co
+keys_url: https://vsco.github.io/keys/
 
-mac_download_url: "FIX_ME"
-windows_download_url: "FIX_ME"
-keys_github_url: "https://github.com/vsco/keys"
+support_article_url: https://vsco.zendesk.com/hc/en-us/articles/205630364
+mac_download_url: https://github.com/vsco/keys/releases/download/v2.0/vscokeys-2.0-OPENSOURCE-osx.app.zip
+windows_download_url: https://github.com/vsco/keys/releases/download/v2.0/vscokeys-2.0-OPENSOURCE-windows.exe.zip
+keys_github_url: https://github.com/vsco/keys
 
 sass:
   style: expanded
