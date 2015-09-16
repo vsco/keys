@@ -1,0 +1,10 @@
+images_url: "//assets.vsco.co/assets/images"
+vsco_url: "https://vsco.co"
+keys_url: "https://vsco.github.io/keys/"
+
+mac_download_url: "FIX_ME"
+windows_download_url: "FIX_ME"
+keys_github_url: "https://github.com/vsco/keys"
+
+sass:
+  style: expanded
