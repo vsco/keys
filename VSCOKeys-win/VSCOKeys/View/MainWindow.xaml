@@ -1,0 +1,95 @@
+﻿<Window x:Class="VSCOKeys.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:view="clr-namespace:VSCOKeys.View"
+        Title="VSCO Keys Settings" MinHeight="400" MinWidth="600" 
+        Icon="/VSCOKeys;component/Resources/Images/keysicon_256x256.png"
+        Closed="Window_Closed" Height="600" Width="800" UseLayoutRounding="True">
+    <Grid>
+        <RadioButton 
+            Command="{Binding OpenListCommand}"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="7,7,0,0" >
+            <RadioButton.Template>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+
+                    <!-- BulletDecorator is used to provide baseline alignment between the checkmark and the Content -->
+                    <BulletDecorator Background="Transparent">
+                        <BulletDecorator.Bullet>
+                            <Grid>
+                                <Image Width="53" Height="40" x:Name="Bullet_Image" Source="/Resources/Images/List_Active.png" />
+                            </Grid>
+                        </BulletDecorator.Bullet>
+                        <ContentPresenter Visibility="Collapsed" RecognizesAccessKey="True"/>
+                    </BulletDecorator>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="false">
+                            <Setter Property="Source" Value="/Resources/Images/List_Inactive.png" TargetName="Bullet_Image"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="false"/>
+                                <Condition Property="IsMouseOver" Value="true"/>
+                            </MultiTrigger.Conditions>
+                            <Setter Property="Source" Value="/Resources/Images/List_Hover.png" TargetName="Bullet_Image"/>
+                        </MultiTrigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter Property="Source" Value="/Resources/Images/List_Active.png" TargetName="Bullet_Image"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </RadioButton.Template>
+        </RadioButton>
+        <RadioButton 
+            Command="{Binding OpenAddCommand}"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top" 
+            Margin="60,7,0,0" 
+            IsChecked="true">
+            <RadioButton.Template>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+
+                    <!-- BulletDecorator is used to provide baseline alignment between the checkmark and the Content -->
+                    <BulletDecorator Background="Transparent">
+                        <BulletDecorator.Bullet>
+                            <Grid>
+                                <Image Width="53" Height="40" x:Name="Bullet_Image" Source="/Resources/Images/Add_Active.png" />
+                            </Grid>
+                        </BulletDecorator.Bullet>
+                        <ContentPresenter Visibility="Collapsed" RecognizesAccessKey="True"/>
+                    </BulletDecorator>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="false">
+                            <Setter Property="Source" Value="/Resources/Images/Add_Inactive.png" TargetName="Bullet_Image"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="false"/>
+                                <Condition Property="IsMouseOver" Value="true"/>
+                            </MultiTrigger.Conditions>
+                            <Setter Property="Source" Value="/Resources/Images/Add_Hover.png" TargetName="Bullet_Image"/>
+                        </MultiTrigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter Property="Source" Value="/Resources/Images/Add_Active.png" TargetName="Bullet_Image"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </RadioButton.Template>
+        </RadioButton>
+        <Separator HorizontalAlignment="Stretch" Margin="0,55,0,0" VerticalAlignment="Top"/>
+        <TabControl Style="{StaticResource mainTabControl}" Margin="0,56,0,0" Padding="0" SelectedIndex="{Binding SelectedTab}">
+            <TabItem>
+                <view:AddCreateView DataContext="{Binding AddCreate}" />
+            </TabItem>
+            <TabItem>
+                <view:ListView DataContext="{Binding List}"  />
+            </TabItem>
+            <TabItem>
+                <view:DetailView DataContext="{Binding Detail}"  />
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

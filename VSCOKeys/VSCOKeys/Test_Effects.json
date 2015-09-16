@@ -1,0 +1,19 @@
+{
+    "name": "TEST: Effects panel",
+    "description": "Test file for the Effects panel",
+    "author": "sean",
+    "uuid": "XXXXXX-XXXXX-XXXXXX5",
+    "lrVersion": "4",
+    "modeKey": "53",
+    "keys":
+    [
+        { "mod":"0", "key":"12", "adj" : {"GrainAmount":"10"} },
+        { "mod":"0", "key":"13", "adj" : {"GrainSize":"10"} },
+        { "mod":"0", "key":"14", "adj" : {"GrainFrequency":"10"} },
+        { "mod":"0", "key":"15", "adj" : {"PostCropVignetteAmount":"10"} },
+        { "mod":"0", "key":"17", "adj" : {"PostCropVignetteMidpoint":"10"} },
+        { "mod":"0", "key":"16", "adj" : {"PostCropVignetteRoundness":"10"} },
+        { "mod":"0", "key":"32", "adj" : {"PostCropVignetteFeather":"10"} },
+        { "mod":"0", "key":"34", "adj" : {"PostCropVignetteHighlightContrast":"10"} }
+    ]
+}

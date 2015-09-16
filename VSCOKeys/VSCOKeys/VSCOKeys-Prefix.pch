@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'VSCOKeys' target in the 'VSCOKeys' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+extern void DualLog(NSString* format, ...);
+
+#import "Constants.h"

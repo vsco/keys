@@ -1,0 +1,18 @@
+{
+    "name": "TEST: Camera Calibration panel",
+    "description": "Test file for the Camera Calibration panel",
+    "author": "sean",
+    "uuid": "XXXXXX-XXXXX-XXXXXXT6",
+    "lrVersion": "4",
+    "modeKey": "53",
+    "keys":
+    [
+        { "mod":"0", "key":"12", "adj" : {"ShadowTint":"10"} },
+        { "mod":"0", "key":"13", "adj" : {"RedHue":"10"} },
+        { "mod":"0", "key":"14", "adj" : {"RedSaturation":"10"} },
+        { "mod":"0", "key":"15", "adj" : {"GreenHue":"10"} },
+        { "mod":"0", "key":"17", "adj" : {"GreenSaturation":"10"} },
+        { "mod":"0", "key":"16", "adj" : {"BlueHue":"10"} },
+        { "mod":"0", "key":"32", "adj" : {"BlueSaturation":"10"} }
+    ]
+}

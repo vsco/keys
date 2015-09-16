@@ -1,0 +1,16 @@
+{
+    "name": "Test Open Source",
+    "description": "Test file",
+    "author": "test user",
+    "uuid": "test",
+    "lrVersion": "4",
+    "modeKey": "53",
+    "keys":
+    [
+        { "mod":"0", "key":"12", "adj" : {"_SetPreset":"VSCO Film 01 LR4 Canon/C - Fuji 160C"} },
+        { "mod":"0", "key":"13", "adj" : {"Saturation":"-1"} },
+        { "mod":"0", "key":"14", "adj" : {"Saturation":"1"} },
+        { "mod":"2", "key":"13", "adj" : {"Exposure2012":"-.1"} },
+        { "mod":"2", "key":"14", "adj" : {"Exposure2012":".1"} }
+    ]
+}

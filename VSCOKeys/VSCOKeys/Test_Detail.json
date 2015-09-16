@@ -1,0 +1,20 @@
+{
+    "name": "TEST: Detail panel",
+    "description": "Test file for the detail panel",
+    "author": "sean",
+    "uuid": "XXXXXX-XXXXX-XXXXXXT2",
+    "lrVersion": "4",
+    "modeKey": "53",
+    "keys": 
+    [
+        { "mod":"0", "key":"15", "adj" : {"Sharpness":"10"} },
+        { "mod":"0", "key":"14", "adj" : {"SharpenRadius":"0.1"} },
+        { "mod":"0", "key":"13", "adj" : {"SharpenDetail":"10"} },
+        { "mod":"0", "key":"12", "adj" : {"SharpenEdgeMasking":"10"} },
+        { "mod":"0", "key":"0", "adj" : {"LuminanceSmoothing":"10"} },
+        { "mod":"0", "key":"1", "adj" : {"LuminanceNoiseReductionDetail":"15"} },
+        { "mod":"0", "key":"2", "adj" : {"LuminanceNoiseReductionContrast":"15"} },
+        { "mod":"0", "key":"3", "adj" : {"ColorNoiseReduction":"15"} },
+        { "mod":"0", "key":"5", "adj" : {"ColorNoiseReductionDetail":"15"} }
+    ]
+}

@@ -1,0 +1,75 @@
+﻿<Window x:Class="VSCOKeys.View.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="/VSCOKeys;component/Resources/Images/keysicon_256x256.png"
+        Title="About VSCO Keys" Height="300" Width="300" Closing="Window_Closing" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" UseLayoutRounding="True">
+    <Grid>
+        <Image 
+            Source="/VSCOKeys;component/Resources/Images/keysicon_256x256.png"
+            Width="70"
+            Height="70"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Margin="0,27,0,0"  />
+        <Image 
+            Source="/VSCOKeys;component/Resources/Images/VSCOKeysLogo.png"
+            Width="169"
+            Height="24"
+            HorizontalAlignment="Center"
+            VerticalAlignment="top"
+            Margin="0,133,0,0" />
+        <Label 
+            Style="{StaticResource proximaText}"
+            FontSize="10"
+            Content="{Binding Version}" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top" 
+            Margin="0,161,0,0" />
+        <Button 
+            Style="{StaticResource redUnderlineLink}" 
+            Command="{Binding TOSCommand}"
+            Content="Terms of Use" 
+            Height="25"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="49,204,0,0" />
+        <Label 
+            Content="/" 
+            Foreground="Red" 
+            Height="25"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="112,204,0,0" />
+        <Button 
+            Style="{StaticResource redUnderlineLink}" 
+            Command="{Binding PrivPolicyCommand}"
+            Content="Privacy Policy" 
+            Height="25"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="130,204,0,0" />
+        <Label 
+            Content="/" 
+            Foreground="Red" 
+            Height="25"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="193,204,0,0" />
+        <Button 
+            Style="{StaticResource redUnderlineLink}" 
+            Command="{Binding SupportCommand}"
+            Content="Support" 
+            Height="25"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="212,204,0,0" />
+        <Label 
+            Style="{StaticResource proximaText}"
+            FontSize="9"
+            Content="Copyright @2012 Visual Supply Co / All Rights Reserved" 
+            HorizontalAlignment="Stretch" 
+            HorizontalContentAlignment="Center"
+            VerticalAlignment="Top"
+            Margin="0,231,0,0" />
+    </Grid>
+</Window>

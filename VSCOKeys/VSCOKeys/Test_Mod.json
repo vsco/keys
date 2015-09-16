@@ -1,0 +1,21 @@
+{
+    "name": "TEST: Modifier,Preset,Remap",
+    "description": "Test file for modifiers, presets, and remapping keys",
+    "author": "sean",
+    "uuid": "XXXXXX-XXXXX-XXXXXXT1",
+    "version": "1.1.0",
+    "lrVersion": "4",
+    "modeKey": "53",
+    "keys": 
+    [
+        { "mod":"1", "key":"15", "adj" : {"Sharpness":"10"} },
+        { "mod":"2", "key":"14", "adj" : {"ColorNoiseReductionDetail":"10"} },
+        { "mod":"6", "key":"13", "adj" : {"SharpenDetail":"10"} },
+        { "mod":"0", "key":"12", "adj" : {"SharpenEdgeMasking":"10"} },
+        { "mod":"8", "key":"0", "adj" : {"LuminanceSmoothing":"10"} },
+        { "mod":"0", "key":"1", "adj" : {"_SetPreset":"Lightroom Color Presets/Aged Photo"} },
+        { "mod":"0", "key":"2", "adj" : {"_SetPreset":"yo / foo"} },
+        { "mod":"0", "key":"3", "adj" : {"_RemapKey":"15"} },
+        { "mod":"0", "key":"5", "adj" : {"_RemapKey":{"mod":"8","key":"38"}} }
+    ]
+}

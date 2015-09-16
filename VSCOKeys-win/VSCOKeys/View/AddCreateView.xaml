@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="VSCOKeys.View.AddCreateView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="335" d:DesignWidth="636" Drop="UserControl_Drop" AllowDrop="True">
+    <UserControl.Resources>
+        <Storyboard x:Key="setRectGray">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)">
+                <SplineColorKeyFrame KeyTime="00:00:00.2000000" Value="Gray"/>
+            </ColorAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="setRectTransparent">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)">
+                <SplineColorKeyFrame KeyTime="00:00:00.2000000" Value="Transparent"/>
+            </ColorAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="DragEnter">
+            <BeginStoryboard Storyboard="{StaticResource setRectGray}" />
+        </EventTrigger>
+        <EventTrigger RoutedEvent="DragLeave">
+            <BeginStoryboard Storyboard="{StaticResource setRectTransparent}" />
+        </EventTrigger>
+        <EventTrigger RoutedEvent="Drop">
+            <BeginStoryboard Storyboard="{StaticResource setRectTransparent}" />
+        </EventTrigger>
+    </UserControl.Triggers>
+    <Grid>
+        <Rectangle Name="rectangle" Fill="White" Stroke="Transparent" StrokeThickness="2" />
+        <Grid
+            Width="539"
+            Height="248" 
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Margin="0">
+            <Image 
+                Stretch="Fill"
+                Source="/VSCOKeys;component/Resources/Images/Add_Create.png"/>
+            <Button 
+                Style="{StaticResource invisButton}"
+                Command="{Binding CreateCommand}"
+                Background="Transparent" 
+                BorderBrush="Transparent" 
+                Width="190"
+                Height="248" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top"
+                Margin="348,0,0,0" />
+        </Grid>
+    </Grid>
+</UserControl>

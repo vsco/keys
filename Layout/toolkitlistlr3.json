@@ -1,0 +1,1019 @@
+[{
+	"type": "toolkit",
+	"hex": "#ff9899",
+	"name": "Basic",
+	"imageOffset": -192,
+	"imageHeight": 380,
+	"adjustments": [
+		{
+			"name": "Temperature",
+			"label": "Temperature",
+			"minIncrement": 100,
+			"maxIncrement": 2000,
+			"jpgSetting": {
+				"name": "IncrementalTemperature",
+				"multiplicationFactor": 0.01
+			},
+			"highlightSelection": [[6,94],[241,112]]
+		},
+		{
+			"name": "Tint",
+			"label": "Tint",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"jpgSetting": {
+				"name": "IncrementalTint",
+				"multiplicationFactor": 1
+			},
+			"highlightSelection": [[6,112],[241,130]]
+		},
+		{
+			"name": "Exposure",
+			"label": "Exposure",
+			"minIncrement": 0.10,
+			"maxIncrement": 1,
+			"highlightSelection": [[6,162],[241,180]]
+		},
+		{
+			"name": "HighlightRecovery",
+			"label": "Highlight Recovery",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,180],[241,198]]
+		},
+		{
+			"name": "FillLight",
+			"label": "Fill Light",
+			"maxIncrement": 25,
+			"highlightSelection": [[6,198],[241,216]]
+		},
+		{
+			"name": "Shadows",
+			"label": "Blacks",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,216],[241,234]]
+		},
+		{
+			"name": "Brightness",
+			"label": "Brightness",
+			"minIncrement": 1,
+			"maxIncrement": 50,
+			"highlightSelection": [[6,247],[241,265]]
+		},
+		{
+			"name": "Contrast",
+			"label": "Contrast",
+			"minIncrement": 1,
+			"maxIncrement": 50,
+			"highlightSelection": [[6,265],[241,283]]
+		},
+		{
+			"name": "Clarity",
+			"label": "Clarity",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,313],[241,331]]
+		},
+		{
+			"name": "Vibrance",
+			"label": "Vibrance",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,331],[241,349]]
+		},
+		{
+			"name": "Saturation",
+			"label": "Saturation",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,349],[241,367]]
+		}
+	]
+},
+{
+	"type": "toolkit",
+	"hex": "#ffbed4",
+	"name": "Tone Curve",
+	"imageOffset": -567,
+	"imageHeight": 363,
+	"adjustments": [
+		{
+			"name": "ParametricHighlights",
+			"label": "Highlight Tones",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,247],[241,265]]
+		},
+		{
+			"name": "ParametricLights",
+			"label": "Light Tones",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,265],[241,283]]
+		},
+		{
+			"name": "ParametricDarks",
+			"label": "Dark Tones",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,283],[241,301]]
+		},
+		{
+			"name": "ParametricShadows",
+			"label": "Shadow Tones",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,301],[241,319]]
+		},
+		{
+			"name": "ParametricHighlightSplit",
+			"label": "Highlight Split",
+			"minIncrement": 1,
+			"maxIncrement": 10,
+			"highlightSelection": [[152,26],[175,221]]
+		},
+		{
+			"name": "ParametricMidtoneSplit",
+			"label": "Midtone Split",
+			"minIncrement": 1,
+			"maxIncrement": 10,
+			"highlightSelection": [[113,26],[136,221]]
+		},
+		{
+			"name": "ParametricShadowSplit",
+			"label": "Shadow Split",
+			"minIncrement": 1,
+			"maxIncrement": 10,
+			"highlightSelection": [[73,26],[96,221]]
+		}
+	]
+},
+{
+	"type": "toolkit",
+	"hex": "#fee1fd",
+	"name": "HSL - Hue",
+	"imageOffset": -926,
+	"imageHeight": 239,
+	"adjustments": [
+		{
+			"name": "HueAdjustmentRed",
+			"label": "Red Hue Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,83],[241,101]]
+		},
+		{
+			"name": "HueAdjustmentOrange",
+			"label": "Orange Hue Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,101],[241,119]]
+		},
+		{
+			"name": "HueAdjustmentYellow",
+			"label": "Yellow Hue Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,119],[241,137]]
+		},
+		{
+			"name": "HueAdjustmentGreen",
+			"label": "Green Hue Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,137],[241,155]]
+		},
+		{
+			"name": "HueAdjustmentAqua",
+			"label": "Aqua Hue Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,155],[241,173]]
+		},
+		{
+			"name": "HueAdjustmentBlue",
+			"label": "Blue Hue Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,173],[241,191]]
+		},
+		{
+			"name": "HueAdjustmentPurple",
+			"label": "Purple Hue Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,191],[241,209]]
+		},
+		{
+			"name": "HueAdjustmentMagenta",
+			"label": "Magenta Hue Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,209],[241,227]]
+		}
+	]
+},
+{
+	"type": "toolkit",
+	"hex": "#dfbfff",
+	"name": "HSL - Saturation",
+	"imageOffset": -1160,
+	"imageHeight": 238,
+	"adjustments": [
+		{
+			"name": "SaturationAdjustmentRed",
+			"label": "Red Saturation Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,81],[241,99]]
+		},
+		{
+			"name": "SaturationAdjustmentOrange",
+			"label": "Orange Saturation Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,99],[241,117]]
+		},
+		{
+			"name": "SaturationAdjustmentYellow",
+			"label": "Yellow Saturation Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,117],[241,135]]
+		},
+		{
+			"name": "SaturationAdjustmentGreen",
+			"label": "Green Saturation Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,135],[241,153]]
+		},
+		{
+			"name": "SaturationAdjustmentAqua",
+			"label": "Aqua Saturation Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,153],[241,171]]
+		},
+		{
+			"name": "SaturationAdjustmentBlue",
+			"label": "Blue Saturation Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,171],[241,189]]
+		},
+		{
+			"name": "SaturationAdjustmentPurple",
+			"label": "Purple Saturation Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,189],[241,207]]
+		},
+		{
+			"name": "SaturationAdjustmentMagenta",
+			"label": "Magenta Saturation Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,207],[241,225]]
+		}
+	]
+},
+{
+	"type": "toolkit",
+	"hex": "#c5c1fe",
+	"name": "HSL - Luminance",
+	"imageOffset": -1394,
+	"imageHeight": 238,
+	"adjustments": [
+		{
+			"name": "LuminanceAdjustmentRed",
+			"label": "Red Luminance Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,81],[241,99]]
+		},
+		{
+			"name": "LuminanceAdjustmentOrange",
+			"label": "Orange Luminance Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,99],[241,117]]
+		},
+		{
+			"name": "LuminanceAdjustmentYellow",
+			"label": "Yellow Luminance Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,117],[241,135]]
+		},
+		{
+			"name": "LuminanceAdjustmentGreen",
+			"label": "Green Luminance Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,135],[241,153]]
+		},
+		{
+			"name": "LuminanceAdjustmentAqua",
+			"label": "Aqua Luminance Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,153],[241,171]]
+		},
+		{
+			"name": "LuminanceAdjustmentBlue",
+			"label": "Blue Luminance Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,171],[241,189]]
+		},
+		{
+			"name": "LuminanceAdjustmentPurple",
+			"label": "Purple Luminance Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,189],[241,207]]
+		},
+		{
+			"name": "LuminanceAdjustmentMagenta",
+			"label": "Magenta Luminance Shift",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,207],[241,225]]
+		}
+	]
+},
+{
+	"type": "toolkit",
+	"hex": "#cae2fe",
+	"name": "Split Toning",
+	"imageOffset": -1628,
+	"imageHeight": 197,
+	"adjustments": [
+		{
+			"name": "SplitToningHighlightHue",
+			"label": "Highlight Hue",
+			"minIncrement": 1,
+			"maxIncrement": 50,
+			"highlightSelection": [[6,51],[241,69]]
+		},
+		{
+			"name": "SplitToningHighlightSaturation",
+			"label": "Highlight Saturation",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,69],[241,87]]
+		},
+		{
+			"name": "SplitToningShadowHue",
+			"label": "Shadow Hue",
+			"minIncrement": 1,
+			"maxIncrement": 50,
+			"highlightSelection": [[6,149],[241,167]]
+		},
+		{
+			"name": "SplitToningShadowSaturation",
+			"label": "Shadow Saturation",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,167],[241,185]]
+		},
+		{
+			"name": "SplitToningBalance",
+			"label": "Split Toning Balance",
+			"minIncrement": 1,
+			"maxIncrement": 50,
+			"highlightSelection": [[6,99],[241,117]]
+		}
+	]
+},
+{
+	"type": "toolkit",
+	"hex": "#ccffff",
+	"name": "Detail",
+	"imageOffset": -1820,
+	"imageHeight": 267,
+	"adjustments": [
+		{
+			"name": "Sharpness",
+			"label": "Sharpness",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,50],[241,68]]
+		},
+		{
+			"name": "SharpenRadius",
+			"label": "Sharpen Radius",
+			"minIncrement": 0.10,
+			"maxIncrement": 1,
+			"highlightSelection": [[6,68],[241,86]]
+		},
+		{
+			"name": "SharpenDetail",
+			"label": "Sharpen Detail",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,86],[241,104]]
+		},
+		{
+			"name": "SharpenEdgeMasking",
+			"label": "Sharpen Edge Masking",
+			"maxIncrement": 25,
+			"highlightSelection": [[6,104],[241,122]]
+		},
+		{
+			"name": "LuminanceSmoothing",
+			"label": "Luminance Smoothing",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,153],[241,171]]
+		},
+		{
+			"name": "LuminanceNoiseReductionDetail",
+			"label": "Luminance Noise Reduction Detail",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,171],[241,189]]
+		},
+		{
+			"name": "LuminanceNoiseReductionContrast",
+			"label": "Luminance Noise Reduction Contrast",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,189],[241,207]]
+		},
+		{
+			"name": "ColorNoiseReduction",
+			"label": "Color Noise Reduction",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,219],[241,237]]
+		},
+		{
+			"name": "ColorNoiseReductionDetail",
+			"label": "Color Noise Reduction Detail",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,237],[241,255]]
+		}
+	]
+},
+{
+	"type": "toolkit",
+	"hex": "#99ffe5",
+	"name": "Lens Correction",
+	"imageOffset": -2083,
+	"imageHeight": 352,
+	"adjustments": [
+		{
+			"name": "LensManualDistortionAmount",
+			"label": "Distortion Amount",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,81],[241,99]]
+		},
+		{
+			"name": "PerspectiveVertical",
+			"label": "Vertical Perspective",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,99],[241,117]]
+		},
+		{
+			"name": "PerspectiveHorizontal",
+			"label": "Horizontal Perspective",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,117],[241,135]]
+		},
+		{
+			"name": "PerspectiveRotate",
+			"label": "Perspective Rotate",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,135],[241,153]]
+		},
+		{
+			"name": "PerspectiveScale",
+			"label": "Perspective Scale",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,153],[241,171]]
+		},
+		{
+			"name": "VignetteAmount",
+			"label": "Vignette Amount",
+			"minIncrement": 1,
+			"maxIncrement": 50,
+			"highlightSelection": [[6,220],[241,238]]
+		},
+		{
+			"name": "VignetteMidpoint",
+			"label": "Vignette Midpoint",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,238],[241,256]]
+		}
+	]
+},
+{
+	"type": "toolkit",
+	"hex": "#99ff99",
+	"name": "Effects",
+	"imageOffset": -2432,
+	"imageHeight": 255,
+	"adjustments": [
+		{
+			"name": "PostCropVignetteAmount",
+			"label": "P-C Vignette Amount",
+			"minIncrement": 1,
+			"maxIncrement": 50,
+			"highlightSelection": [[6,68],[241,86]]
+
+		},
+		{
+			"name": "PostCropVignetteMidpoint",
+			"label": "P-C Vignette Midpoint",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,86],[241,104]]
+		},
+		{
+			"name": "PostCropVignetteRoundness",
+			"label": "P-C Vignette Roundness",
+			"minIncrement": 1,
+			"maxIncrement": 50,
+			"highlightSelection": [[6,104],[241,121]]
+		},
+		{
+			"name": "PostCropVignetteFeather",
+			"label": "P-C Vignette Feather",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,121],[241,139]]
+		},
+		{
+			"name": "PostCropVignetteHighlightContrast",
+			"label": "P-C Vignette Highlights",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,139],[241,157]]
+		},
+		{
+			"name": "GrainAmount",
+			"label": "Grain Amount",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,189],[241,207]]
+		},
+		{
+			"name": "GrainSize",
+			"label": "Grain Size",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,207],[241,225]]
+		},
+		{
+			"name": "GrainFrequency",
+			"label": "Grain Roughness",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,225],[241,243]]
+		}
+	]
+},
+{
+	"type": "toolkit",
+	"hex": "#feff99",
+	"name": "Camera Calibration",
+	"imageOffset": -2683,
+	"imageHeight": 341,
+	"adjustments": [
+		{
+			"name": "ShadowTint",
+			"label": "Shadow Tint",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,112],[241,130]]
+		},
+		{
+			"name": "RedHue",
+			"label": "Red Hue",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,160],[241,178]]
+		},
+		{
+			"name": "RedSaturation",
+			"label": "Red Saturation",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,178],[241,196]]
+		},
+		{
+			"name": "GreenHue",
+			"label": "Green Hue",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,226],[241,244]]
+		},
+		{
+			"name": "GreenSaturation",
+			"label": "Green Saturation",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,244],[241,262]]
+		},
+		{
+			"name": "BlueHue",
+			"label": "Blue Hue",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,292],[241,310]]
+		},
+		{
+			"name": "BlueSaturation",
+			"label": "Blue Saturation",
+			"minIncrement": 1,
+			"maxIncrement": 25,
+			"highlightSelection": [[6,310],[241,328]]
+		}
+	]
+},
+{
+	"type": "presets",
+	"hex": "#fecd8a",
+	"name": "Presets",
+	"adjustments" : [
+	{
+		"name": "VSCO FILM 01 Canon",
+		"adjustments": [
+			{"name": "(C) Kodak Portra 160"},
+			{"name": "(C) Kodak Portra 160 +"},
+			{"name": "(C) Kodak Portra 160 -"},
+			{"name": "(C) Kodak Portra 400"},
+			{"name": "(C) Kodak Portra 400 +"},
+			{"name": "(C) Kodak Portra 400 -"},
+			{"name": "(C) Kodak Portra 800"},
+			{"name": "(C) Kodak Portra 800 +"},
+			{"name": "(C) Kodak Portra 800 -"},
+			{"name": "(C) Fuji 160C"},
+			{"name": "(C) Fuji 160C ++"},
+			{"name": "(C) Fuji 160C +"},
+			{"name": "(C) Fuji 160C -"},
+			{"name": "(C) Fuji 400H"},
+			{"name": "(C) Fuji 400H +"},
+			{"name": "(C) Fuji 400H -"},
+			{"name": "(C) Fuji 800Z"},
+			{"name": "(C) Fuji 800Z +"},
+			{"name": "(C) Fuji 800Z -"},
+			{"name": "(C) Kodak Tri-X 400"},
+			{"name": "(C) Kodak Tri-X 400 ++"},
+			{"name": "(C) Kodak Tri-X 400 +"},
+			{"name": "(C) Kodak Tri-X 400 -"},
+			{"name": "(C) Kodak T-MAX 3200"},
+			{"name": "(C) Kodak T-MAX 3200 +"},
+			{"name": "(C) Kodak T-MAX 3200 -"},
+			{"name": "(C) Ilford HP5"},
+			{"name": "(C) Ilford HP5 +"},
+			{"name": "(C) Ilford HP5 -"}
+		]
+	},
+	{
+		"name": "VSCO FILM 01 Nikon",
+		"adjustments": [
+			{"name": "(N) Kodak Portra 160"},
+			{"name": "(N) Kodak Portra 160 +"},
+			{"name": "(N) Kodak Portra 160 -"},
+			{"name": "(N) Kodak Portra 400"},
+			{"name": "(N) Kodak Portra 400 +"},
+			{"name": "(N) Kodak Portra 400 -"},
+			{"name": "(N) Kodak Portra 800"},
+			{"name": "(N) Kodak Portra 800 +"},
+			{"name": "(N) Kodak Portra 800 -"},
+			{"name": "(N) Fuji 160C"},
+			{"name": "(N) Fuji 160C ++"},
+			{"name": "(N) Fuji 160C +"},
+			{"name": "(N) Fuji 160C -"},
+			{"name": "(N) Fuji 400H"},
+			{"name": "(N) Fuji 400H +"},
+			{"name": "(N) Fuji 400H -"},
+			{"name": "(N) Fuji 800Z"},
+			{"name": "(N) Fuji 800Z +"},
+			{"name": "(N) Fuji 800Z -"},
+			{"name": "(N) Kodak Tri-X 400"},
+			{"name": "(N) Kodak Tri-X 400 ++"},
+			{"name": "(N) Kodak Tri-X 400 +"},
+			{"name": "(N) Kodak Tri-X 400 -"},
+			{"name": "(N) Kodak T-MAX 3200"},
+			{"name": "(N) Kodak T-MAX 3200 +"},
+			{"name": "(N) Kodak T-MAX 3200 -"},
+			{"name": "(N) Ilford HP5"},
+			{"name": "(N) Ilford HP5 +"},
+			{"name": "(N) Ilford HP5 -"}
+		]
+	},
+	{
+		"name": "VSCO FILM 01 Standard",
+		"adjustments": [
+			{"name": "(S) Kodak Portra 160"},
+			{"name": "(S) Kodak Portra 160 +"},
+			{"name": "(S) Kodak Portra 160 -"},
+			{"name": "(S) Kodak Portra 400"},
+			{"name": "(S) Kodak Portra 400 +"},
+			{"name": "(S) Kodak Portra 400 -"},
+			{"name": "(S) Kodak Portra 800"},
+			{"name": "(S) Kodak Portra 800 +"},
+			{"name": "(S) Kodak Portra 800 -"},
+			{"name": "(S) Fuji 160C"},
+			{"name": "(S) Fuji 160C ++"},
+			{"name": "(S) Fuji 160C +"},
+			{"name": "(S) Fuji 160C -"},
+			{"name": "(S) Fuji 400H"},
+			{"name": "(S) Fuji 400H +"},
+			{"name": "(S) Fuji 400H -"},
+			{"name": "(S) Fuji 800Z"},
+			{"name": "(S) Fuji 800Z +"},
+			{"name": "(S) Fuji 800Z -"},
+			{"name": "(S) Kodak Tri-X 400"},
+			{"name": "(S) Kodak Tri-X 400 ++"},
+			{"name": "(S) Kodak Tri-X 400 +"},
+			{"name": "(S) Kodak Tri-X 400 -"},
+			{"name": "(S) Kodak T-MAX 3200"},
+			{"name": "(S) Kodak T-MAX 3200 +"},
+			{"name": "(S) Kodak T-MAX 3200 -"},
+			{"name": "(S) Ilford HP5"},
+			{"name": "(S) Ilford HP5 +"},
+			{"name": "(S) Ilford HP5 -"}
+		]
+	},
+	{
+		"name": "VSCO FILM TOOLKIT",
+		"adjustments": [
+			{"name": "--RESET--"},
+			{"name": "-Auto Tone-"},
+			{"name": "-Auto Black Level-"},
+			{"name": "-Black Level 0-"},
+			{"name": "BW - Darker Skies"},
+			{"name": "BW - Darker Skies +"},
+			{"name": "Color - Darker Skies"},
+			{"name": "Color - Darker Skies +"},
+			{"name": "Color - Darker Skies ++"},
+			{"name": "Color - Greener Greens"},
+			{"name": "Color - Greener Greens +"},
+			{"name": "Color - Greener Greens ++"},
+			{"name": "Color - Orange Skin Fix"},
+			{"name": "Color - Orange Skin Fix +"},
+			{"name": "Color - Orange Skin Fix ++"},
+			{"name": "Color - Saturation -"},
+			{"name": "Color - Saturation - -"},
+			{"name": "Contrast -"},
+			{"name": "Contrast - -"},
+			{"name": "Contrast +"},
+			{"name": "Contrast ++"},
+			{"name": "Fade"},
+			{"name": "Faded +"},
+			{"name": "Faded ++"},
+			{"name": "Faded Highlights"},
+			{"name": "Faded Shadows"},
+			{"name": "Faded Shadows +"},
+			{"name": "Faded/Toning - Fuji"},
+			{"name": "Faded/Toning - Fuji 2"},
+			{"name": "Faded/Toning - Kodak"},
+			{"name": "Faded/Toning - Kodak 2"},
+			{"name": "Faded/Toning - Kodak 3"},
+			{"name": "Faded/Toning - None"},
+			{"name": "Faded/Toning - Cool Highlights"},
+			{"name": "Faded/Toning - Cool Highlights (Safe)"},
+			{"name": "Faded/Toning - Creamy Highlights"},
+			{"name": "Faded/Toning - Creamy Highlights (Safe)"},
+			{"name": "Fill Light - None"},
+			{"name": "Fill Light +"},
+			{"name": "Fill Light ++"},
+			{"name": "Fill Light ++"},
+			{"name": "Grain (None)"},
+			{"name": "Grain +"},
+			{"name": "Grain ++"},
+			{"name": "Grain +++"},
+			{"name": "Grain Bigger For Web"},
+			{"name": "Grain Bigger For Web +"},
+			{"name": "Toning - Green Shadows"},
+			{"name": "Toning - Green Shadows +"},
+			{"name": "Toning - Magenta Shadows"},
+			{"name": "Toning - Magenta Shadows +"},
+			{"name": "Toning - None"},
+			{"name": "Vignette - None"},
+			{"name": "Vignette +"},
+			{"name": "Vignette ++"},
+			{"name": "Vignette +++"}
+		]
+	},
+	{
+		"name": "VSCO Keys User Presets",
+		"adjustments" : [
+			{"name": "VSCO Keys/Preset 01"},
+			{"name": "VSCO Keys/Preset 02"},
+			{"name": "VSCO Keys/Preset 03"},
+			{"name": "VSCO Keys/Preset 04"},
+			{"name": "VSCO Keys/Preset 05"},
+			{"name": "VSCO Keys/Preset 06"},
+			{"name": "VSCO Keys/Preset 07"},
+			{"name": "VSCO Keys/Preset 08"},
+			{"name": "VSCO Keys/Preset 09"},
+			{"name": "VSCO Keys/Preset 10"},
+			{"name": "VSCO Keys/Preset 11"},
+			{"name": "VSCO Keys/Preset 12"}
+		]
+	}
+]
+
+},
+{
+	"type": "shortcuts",
+	"name": "Lightroom Shortcuts",
+	"hex": "#ffb284",
+	"adjustments" : [
+		{
+			"name": "File",
+			"adjustments" : [
+				{"mod": "9", "key": "34", "label": "Import Photos"},
+				{"mod": "9", "key": "14", "label": "Export Photos"},
+				{"mod": "13", "key": "14", "label": "Export with previous"},
+				{"mod": "8", "key": "11", "label": "Show Quick Collection"},
+				{"mod": "12", "key": "11", "label": "Save Quick Collection"},
+				{"mod": "9", "key": "11", "label": "Clear Quick Collection"},
+				{"mod": "8", "key": "37", "label": "Enable Filters"},
+				{"mod": "8", "key": "35", "label": "Print"}
+			]
+		},
+		{
+			"name": "Edit",
+			"adjustments" : [
+				{"mod": "8", "key": "6", "label": "Undo"},
+				{"mod": "9", "key": "6", "label": "Redo"},
+				{"mod": "8", "key": "7", "label": "Cut"},
+				{"mod": "8", "key": "8", "label": "Copy"},
+				{"mod": "8", "key": "9", "label": "Paste"},
+				{"mod": "8", "key": "0", "label": "Select All"},
+				{"mod": "8", "key": "2", "label": "Select None"},
+				{"mod": "9", "key": "2", "label": "Select only active photo"},
+				{"key": "44", "label": "Deselect Active photo"},
+				{"mod": "12", "key": "0", "label": "Select Flagged Photos"},
+				{"mod": "13", "key": "2", "label": " Deselect Unflagged Photos"}
+			]
+		},
+		{
+			"name": "Library / Develop",
+			"adjustments" : [
+				{"mod": "8", "key": "45", "label": "New Snapshot, New Collection"},
+				{"mod": "9", "key": "45", "label": "New Preset, New Folder"},
+				{"mod": "12", "key": "15", "label": "Refine Photos"},
+				{"key": "120", "label": "Rename Photo"},
+				{"mod": "8", "key": "123", "label": "Previous Photo"},
+				{"mod": "8", "key": "124", "label": "Next Photo"}
+			]
+		},
+		{
+			"name": "Photo",
+			"adjustments" : [
+				{"key": "11", "label": "Add to Quick Collection"},
+				{"mod": "8", "key": "15", "label": "Show in finder"},
+				{"mod": "8", "key": "14", "label": "Edit in Photoshop"},
+				{"mod": "12", "key": "14", "label": "Edit in other application"},
+				{"mod": "8", "key": "5", "label": "Group into stack"},
+				{"mod": "9", "key": "5", "label": "Unstack"},
+				{"key": "1", "label": "Collapse/Expand Stack"},
+				{"mod": "1", "key": "1", "label": "Move to top of stack"},
+				{"mod": "1", "key": "33", "label": "Move Up in stack"},
+				{"mod": "1", "key": "30", "label": "Move Down in stack"},
+				{"mod": "8", "key": "39", "label": "Create Virtual Copy"},
+				{"mod": "8", "key": "33", "label": "Rotate Left"},
+				{"mod": "8", "key": "33", "label": "Rotate Right"},
+				{"key": "35", "label": "Flagged"},
+				{"key": "32", "label": "Unflagged"},
+				{"key": "7", "label": "Rejected, Rotate Crop Aspect"},
+				{"key": "50", "label": "Toggle Flag"},
+				{"mod": "8", "key": "126", "label": "Increase Flag Status"},
+				{"mod": "8", "key": "125", "label": "Decrease Flag Status"},
+				{"key": "29", "label": "Set rating to 0"},
+				{"key": "18", "label": "Set rating to 1"},
+				{"key": "19", "label": "Set rating to 2"},
+				{"key": "20", "label": "Set rating to 3"},
+				{"key": "21", "label": "Set rating to 4"},
+				{"key": "23", "label": "Set rating to 5"},
+				{"key": "33", "label": "Decrease Rating/-Brush size"},
+				{"key": "30", "label": "Increase Rating/+Brush size"},
+				{"key": "22", "label": "Set Red Label"},
+				{"key": "26", "label": "Set Yellow Label"},
+				{"key": "28", "label": "Set Green Label"},
+				{"key": "25", "label": "Set Blue Label"},
+				{"mod": "8", "key": "40", "label": "Add keywords"},
+				{"mod": "4", "key": "51", "label": "Remove Photo from Catalog"},
+				{"mod": "8", "key": "51", "label": "Delete Rejected Photos"}
+			]
+		},
+		{
+			"name": "Library: Metadata",
+			"adjustments" : [
+				{"mod": "12", "key": "40", "label": "Enable Metadata Painting"},
+				{"mod": "13", "key": "8", "label": "Copy Metadata"},
+				{"mod": "13", "key": "9", "label": "Paste Metadata"},
+				{"mod": "8", "key": "1", "label": "Save Metadata to file"}
+			]
+		},
+		{
+			"name": "Develop: Settings",
+			"adjustments" : [
+				{"mod": "9", "key": "15", "label": "Reset all settings"},
+				{"mod": "9", "key": "8", "label": "Copy Settings"},
+				{"mod": "9", "key": "9", "label": "Paste Settings"},
+				{"mod": "12", "key": "9", "label": "Paste Settings From Previous"},
+				{"mod": "9", "key": "1", "label": " Sync settings"},
+				{"mod": "13", "key": "46", "label": "Match total exposures"},
+				{"mod": "13", "key": "0", "label": "Enable Auto Sync"},
+				{"mod": "9", "key": "32", "label": "Auto White Balance"},
+				{"mod": "8", "key": "32", "label": "Auto Tone"},
+				{"key": "9", "label": "Convert to Black & White"},
+				{"mod": "12", "key": "15", "label": "Reset Crop"},
+				{"mod": "1", "key": "0", "label": "Crop to Same Aspect Ratio"}
+			]
+		},
+		{
+			"name": "Develop: Tools",
+			"adjustments" : [
+				{"key": "15", "label": "Crop Tool"},
+				{"key": "12", "label": "Spot Removal Tool"},
+				{"key": "46", "label": "Graduated Filter Tool"},
+				{"key": "40", "label": "Brush Tool"},
+				{"key": "13", "label": "White balance picker"},
+				{"mod": "13", "key": "45", "label": "Target Adjustment: None"},
+				{"mod": "13", "key": "17", "label": "Tone Curve"},
+				{"mod": "13", "key": "4", "label": "Hue"},
+				{"mod": "13", "key": "1", "label": "Saturation"},
+				{"mod": "13", "key": "37", "label": "Luminance"},
+				{"mod": "13", "key": "5", "label": "Black & White Mix"}
+			]
+		},
+		{
+			"name": "View",
+			"adjustments" : [
+				{"key": "17", "label": "Show/Hide Toolbar"},
+				{"key": "6", "label": "Toggle Zoom View"},
+				{"mod": "8", "key": "24", "label":  "Zoom in"},
+				{"mod": "8",  "key": "27", "label": " Zoom out"},
+				{"key": "16", "label": "Before/After: Left/Right "},
+				{"mod": "4", "key": "16", "label": "Before/After: Top/Bottom"},
+				{"mod": "1", "key": "16", "label": "Split Screen"},
+				{"key": "1", "label": "Show Proof"},
+				{"key": "42", "label": "Show Filter Bar, Before/After"},
+				{"key": "38", "label": "Show clipping, Grid View Style"},
+				{"key": "5", "label": "Go to Grid view"},
+				{"key": "2", "label": "Go to Develop"},
+				{"key": "14", "label": "Go to loupe view"},
+				{"key": "34", "label": "Cycle Info Display"},
+				{"key": "8", "label": "Go to compare view"},
+				{"key": "45", "label": "Go to survey view"}
+			]
+		},
+		{
+			"name": "Window",
+			"adjustments" : [
+				{"mod": "8", "key": "36", "label": "Impromtu Slideshow"},
+				{"key": "48", "label": "Show/Hide Side panels"},
+				{"key": "96", "label": "Show/Hide Module Picker"},
+				{"key": "97", "label": "Show/Hide Filmstrip"},
+				{"key": "98", "label": "Show Left Panels"},
+				{"key": "100", "label": "Show Right Panels"},
+				{"mod": "9", "key": "3", "label": "Full Screen and Hide panels"},
+				{"key": "3", "label": "Next Screen Mode"},
+				{"key": "37", "label": "Next Light Mode"},
+				{"mod": "8", "key": "123", "label": "Go Back"},
+				{"mod": "8", "key": "124", "label": "Go Forward"},
+				{"mod": "12", "key": "18", "label": "Go to Library Module"},
+				{"mod": "12", "key": "19", "label": "Go to Develop Module"},
+				{"mod": "12", "key": "20", "label": "Go to Slideshow Module"},
+				{"mod": "12", "key": "21", "label": "Go to Print Module"},
+				{"mod": "12", "key": "26", "label": "Go to Web module"},
+				{"mod": "12", "key": "126", "label": "Go to previous Module"}
+			]
+		},
+		{
+			"name": "Misc",
+			"adjustments" : [
+				{"key": "24", "label": "Increase thumbnail size"},
+				{"key": "27", "label": "Decrease thumbnail size"},
+				{"key": "0", "label": "Crop: Constrain Aspect Ratio"},
+				{"key": "47", "label": "Select next Basic panel slider"},
+				{"key": "43", "label": "Select previous Basic panel slider"},
+				{"key": "123", "label": "Left Arrow"},
+				{"key": "124", "label": "Right Arrow"},
+				{"key": "126", "label": "Up Arrow"},
+				{"key": "125", "label": "Down Arrow"},
+				{"key": "4", "label": "Hide Pins or Spots"},
+				{"key": "44", "label": "Brush: Switch Brush A/B"}
+			]
+		}
+	]
+}
+]

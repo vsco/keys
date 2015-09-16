@@ -1,0 +1,13 @@
+s = {
+	id = "34DB1850-3284-4FB3-AE00-BBA85599DD44",
+	internalName = "2.",
+	title = "Preset 02",
+	type = "Develop",
+	value = {
+		settings = {
+			ProcessVersion = "6.7",
+		},
+		uuid = "D8A6A7BB-4669-4A0A-BB37-DB69B610F9B6",
+	},
+	version = 0,
+}

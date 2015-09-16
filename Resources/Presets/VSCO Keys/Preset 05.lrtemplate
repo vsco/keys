@@ -1,0 +1,13 @@
+s = {
+	id = "23C56AA0-88B8-4FFB-B5DE-C89844F3902F",
+	internalName = "5.",
+	title = "Preset 05",
+	type = "Develop",
+	value = {
+		settings = {
+			ProcessVersion = "6.7",
+		},
+		uuid = "80B1F00F-D990-4AAA-BA47-2A72200104B3",
+	},
+	version = 0,
+}

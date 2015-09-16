@@ -1,0 +1,24 @@
+{
+    "name": "TEST: Lens correction panel",
+    "description": "Test file for the Lens correction panel",
+    "author": "sean",
+    "uuid": "XXXXXX-XXXXX-XXXXXXT7",
+    "lrVersion": "4",
+    "modeKey": "53",
+    "keys":
+    [
+        { "mod":"0", "key":"12", "adj" : {"LensManualDistortionAmount":"10"} },
+        { "mod":"0", "key":"13", "adj" : {"PerspectiveVertical":"10"} },
+        { "mod":"0", "key":"14", "adj" : {"PerspectiveHorizontal":"10"} },
+        { "mod":"0", "key":"15", "adj" : {"PerspectiveRotate":"1"} },
+        { "mod":"0", "key":"17", "adj" : {"PerspectiveScale":"10"} },
+        { "mod":"0", "key":"16", "adj" : {"VignetteAmount":"10"} },
+        { "mod":"0", "key":"32", "adj" : {"VignetteMidpoint":"10"} },
+        { "mod":"0", "key":"34", "adj" : {"DefringePurpleAmount":"10"} },
+        { "mod":"0", "key":"31", "adj" : {"DefringePurpleHueLo":"10"} },
+        { "mod":"0", "key":"35", "adj" : {"DefringePurpleHueHi":"10"} },
+        { "mod":"0", "key":"0", "adj" : {"DefringeGreenAmount":"10"} },
+        { "mod":"0", "key":"1", "adj" : {"DefringeGreenHueLo":"15"} },
+        { "mod":"0", "key":"2", "adj" : {"DefringeGreenHueHi":"15"} }
+    ]
+}

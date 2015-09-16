@@ -1,0 +1,606 @@
+[
+	{
+		"label": "esc",
+		"asciiCode": 27,
+		"imtxCode": 53,
+		"width": 42,
+		"pdfWidth":20,
+		"isModKey": false,
+		"isSelectable" : false
+	},
+	{
+		"label": "F1",
+		"asciiCode": 112,
+		"imtxCode": 122,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F2",
+		"asciiCode": 113,
+		"imtxCode": 120,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F3",
+		"asciiCode": 114,
+		"imtxCode": 99,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F4",
+		"asciiCode": 115,
+		"imtxCode": 118,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F5",
+		"asciiCode": 116,
+		"imtxCode": 96,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F6",
+		"asciiCode": 117,
+		"imtxCode": 97,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F7",
+		"asciiCode": 118,
+		"imtxCode": 98,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F8",
+		"asciiCode": 119,
+		"imtxCode": 100,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F9",
+		"asciiCode": 120,
+		"imtxCode": 101,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F10",
+		"asciiCode": 121,
+		"imtxCode": 109,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F11",
+		"asciiCode": 122,
+		"imtxCode": 103,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "F12",
+		"asciiCode": 123,
+		"imtxCode": 111,
+		"width": 69,
+		"pdfWidth":44,
+		"isModKey": false
+	},
+	{
+		"label": "`",
+		"asciiCode": 192,
+		"imtxCode": 50,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "1",
+		"asciiCode": 49,
+		"imtxCode": 18,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "2",
+		"asciiCode": 50,
+		"imtxCode": 19,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "3",
+		"asciiCode": 51,
+		"imtxCode": 20,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "4",
+		"asciiCode": 52,
+		"imtxCode": 21,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "5",
+		"asciiCode": 53,
+		"imtxCode": 23,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "6",
+		"asciiCode": 54,
+		"imtxCode": 22,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "7",
+		"asciiCode": 55,
+		"imtxCode": 26,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "8",
+		"asciiCode": 56,
+		"imtxCode": 28,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "9",
+		"asciiCode": 57,
+		"imtxCode": 25,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "0",
+		"asciiCode": 58,
+		"imtxCode": 29,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+
+	{
+		"label": "-",
+		"asciiCode": 189,
+		"imtxCode": 27,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "=",
+		"asciiCode": 187,
+		"imtxCode": 24,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "delete",
+		"asciiCode": 8,
+		"imtxCode": 51,
+		"width": 80,
+		"pdfWidth":66,
+		"isModKey": false,
+		"isSelectable": false
+	},
+	{
+		"label": "tab",
+		"asciiCode": 9,
+		"imtxCode": 48,
+		"width": 80,
+		"pdfWidth":66,
+		"isModKey": false,
+		"isSelectable": false
+	},
+	{
+		"label": "Q",
+		"asciiCode": 81,
+		"imtxCode": 12,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "W",
+		"asciiCode": 87,
+		"imtxCode": 13,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "E",
+		"asciiCode": 69,
+		"imtxCode":14 ,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "R",
+		"asciiCode": 82,
+		"imtxCode": 15,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "T",
+		"asciiCode": 84,
+		"imtxCode": 17,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "Y",
+		"asciiCode": 89,
+		"imtxCode": 16,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "U",
+		"asciiCode": 85,
+		"imtxCode": 32,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "I",
+		"asciiCode": 73,
+		"imtxCode": 34,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "O",
+		"asciiCode": 79,
+		"imtxCode": 31,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "P",
+		"asciiCode": 80,
+		"imtxCode": 35,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "[",
+		"asciiCode": 219,
+		"imtxCode": 33,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "]",
+		"asciiCode": 221,
+		"imtxCode": 30,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "\\",
+		"asciiCode": 13,
+		"imtxCode": 42,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "capslock",
+		"asciiCode": 20,
+		"imtxCode": 57,
+		"width": 100,
+		"pdfWidth":76,
+		"isModKey": false,
+		"isSelectable": false
+	},
+	{
+		"label": "A",
+		"asciiCode": 65,
+		"imtxCode": 0,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "S",
+		"asciiCode": 83,
+		"imtxCode": 1,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "D",
+		"asciiCode": 68,
+		"imtxCode": 2,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "F",
+		"asciiCode": 70,
+		"imtxCode": 3,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "G",
+		"asciiCode": 71,
+		"imtxCode": 5,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "H",
+		"asciiCode": 72,
+		"imtxCode": 4,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "J",
+		"asciiCode": 74,
+		"imtxCode": 38,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "K",
+		"asciiCode": 75,
+		"imtxCode": 40,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "L",
+		"asciiCode": 76,
+		"imtxCode": 37,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": ";",
+		"asciiCode": 186,
+		"imtxCode": 41,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "'",
+		"asciiCode": 222,
+		"imtxCode": 39,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "return",
+		"asciiCode": 13,
+		"imtxCode": 36,
+		"width": 110,
+		"pdfWidth":76,
+		"isModKey": false,
+		"isSelectable": false
+	},
+	{
+		"label": "shift",
+		"asciiCode": 16,
+		"imtxCode": 56,
+		"modKeyCode": 1,
+		"width": 140,
+		"pdfWidth":101,
+		"isModKey": true
+	},
+	{
+		"label": "Z",
+		"asciiCode": 90,
+		"imtxCode": 6,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "X",
+		"asciiCode": 88,
+		"imtxCode": 7,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "C",
+		"asciiCode": 67,
+		"imtxCode": 8,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "V",
+		"asciiCode": 86,
+		"imtxCode": 9,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "B",
+		"asciiCode": 66,
+		"imtxCode": 11,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "N",
+		"asciiCode": 78,
+		"imtxCode": 45,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "M",
+		"asciiCode": 77,
+		"imtxCode": 46,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": ",",
+		"asciiCode": 188,
+		"imtxCode": 43,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": ".",
+		"asciiCode": 190,
+		"imtxCode": 47,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "/",
+		"asciiCode": 191,
+		"imtxCode": 44,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "shift",
+		"asciiCode": 16,
+		"imtxCode": 56,
+		"modKeyCode": 1,
+		"pdfWidth":36,
+		"width": 140,
+		"pdfWidth":101,
+		"isModKey": true
+	},
+	{
+		"label": "control",
+		"asciiCode": 17,
+		"imtxCode": 59,
+		"modKeyCode": 2,
+		"width": 80,
+		"pdfWidth":58,
+		"isModKey": true
+	},
+	{
+		"label": "option",
+		"asciiCode": 18,
+		"imtxCode": 58,
+		"modKeyCode": 4,
+		"width": 60,
+		"pdfWidth":58,
+		"isModKey": true
+	},
+	{
+		"label": "command",
+		"asciiCode": 91,
+		"imtxCode": 55,
+		"modKeyCode": 8,
+		"width": 100,
+		"pdfWidth":58,
+		"isModKey": true
+	},
+	{
+		"label": "space",
+		"asciiCode": 32,
+		"imtxCode": 49,
+		"width": 440,
+		"pdfWidth":251,
+		"isModKey": false
+	},
+	{
+		"label": "←",
+		"asciiCode": 37,
+		"imtxCode": 123,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "→",
+		"asciiCode": 39,
+		"imtxCode": 124,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "↑",
+		"asciiCode": 38,
+		"imtxCode": 126,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	},
+	{
+		"label": "↓",
+		"asciiCode": 40,
+		"imtxCode": 125,
+		"width": 60,
+		"pdfWidth":36,
+		"isModKey": false
+	}
+]

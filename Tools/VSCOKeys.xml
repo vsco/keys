@@ -1,0 +1,474 @@
+<project>
+    <shortName>vscokeys</shortName>
+    <fullName>Keys</fullName>
+    <version>2.0</version>
+    <installerFilename>${product_shortname}-${product_version}-OPENSOURCE-${platform_name}.${platform_exec_suffix}</installerFilename>
+    <componentList>
+        <component>
+            <name>default</name>
+            <description>Default Component</description>
+            <canBeEdited>1</canBeEdited>
+            <selected>1</selected>
+            <show>1</show>
+            <folderList>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfiles</name>
+                    <platforms>all</platforms>
+                    <shortcutList>
+                        <shortcut>
+                            <comment>Uninstall</comment>
+                            <exec>${installdir}/${uninstallerName}</exec>
+                            <icon></icon>
+                            <name>Uninstall ${product_fullname}</name>
+                            <path>${installdir}</path>
+                            <platforms>all</platforms>
+                            <runAsAdmin>0</runAsAdmin>
+                            <runInTerminal>0</runInTerminal>
+                            <windowsExec>${installdir}/${uninstallerName}.exe</windowsExec>
+                            <windowsExecArgs></windowsExecArgs>
+                            <windowsIcon></windowsIcon>
+                            <windowsPath>${installdir}</windowsPath>
+                        </shortcut>
+                    </shortcutList>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileslinux</name>
+                    <platforms>linux</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileswindows</name>
+                    <platforms>windows</platforms>
+                    <distributionFileList>
+                        <distributionDirectory>
+                            <origin>../Build/VSCOKeys.lrplugin</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>../Build/VSCOKeys</origin>
+                        </distributionDirectory>
+                    </distributionFileList>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfilesosx</name>
+                    <platforms>osx</platforms>
+                    <distributionFileList>
+                        <distributionFile>
+                            <origin>../Build/VSCOKeys.app</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>../Build/VSCOKeys.lrplugin</origin>
+                        </distributionFile>
+                    </distributionFileList>
+                    <actionList>
+                        <changePermissions permissions="0777" files="*"/>
+                    </actionList>
+                </folder>
+                <folder>
+                    <description>Presets</description>
+                    <destination>${user_home_directory}/Library/Application Support/Adobe/Lightroom/Develop Presets</destination>
+                    <name>presets</name>
+                    <platforms>osx</platforms>
+                    <distributionFileList>
+                        <distributionDirectory>
+                            <origin>../Resources/Presets/VSCO Keys</origin>
+                        </distributionDirectory>
+                    </distributionFileList>
+                    <actionList>
+                        <changePermissions permissions="0777" files="*"/>
+                    </actionList>
+                </folder>
+                <folder>
+                    <description>Win Presets</description>
+                    <destination>${windows_folder_appdata}/Adobe/Lightroom/Develop Presets</destination>
+                    <name>winpresets</name>
+                    <platforms>windows</platforms>
+                    <distributionFileList>
+                        <distributionDirectory>
+                            <origin>../Resources/Presets/VSCO Keys</origin>
+                        </distributionDirectory>
+                    </distributionFileList>
+                </folder>
+            </folderList>
+            <startMenuShortcutList>
+                <startMenuShortcut>
+                    <comment>Uninstall ${product_fullname}</comment>
+                    <name>Uninstall ${product_fullname}</name>
+                    <runAsAdmin>0</runAsAdmin>
+                    <runInTerminal>0</runInTerminal>
+                    <windowsExec>${installdir}/${uninstallerName}.exe</windowsExec>
+                    <windowsExecArgs></windowsExecArgs>
+                    <windowsIcon></windowsIcon>
+                    <windowsPath>${installdir}/</windowsPath>
+                </startMenuShortcut>
+            </startMenuShortcutList>
+        </component>
+        <component>
+            <name>thirdparty</name>
+            <description>Third Party</description>
+            <canBeEdited>0</canBeEdited>
+            <selected>0</selected>
+            <show>0</show>
+            <folderList>
+                <folder>
+                    <description>Third Party</description>
+                    <destination>${system_temp_directory}/thirdparty</destination>
+                    <name>thirdparty</name>
+                    <platforms>windows</platforms>
+                    <distributionFileList>
+                        <distributionFile>
+                            <origin>dotNetFx40_Full_x86_x64.exe</origin>
+                        </distributionFile>
+                    </distributionFileList>
+                </folder>
+            </folderList>
+        </component>
+    </componentList>
+    <preBuildActionList>
+        <runProgram>
+            <program>bash</program>
+            <programArguments>${build_project_directory}/compileLrplugin.sh</programArguments>
+            <workingDirectory>${build_project_directory}</workingDirectory>
+            <ruleList>
+                <compareText logic="contains" text="${build_project_directory}" value="c:">
+                    <negate>1</negate>
+                    <nocase>1</nocase>
+                </compareText>
+            </ruleList>
+        </runProgram>
+        <runProgram>
+            <program>${build_project_directory}/compileLrplugin.bat</program>
+            <programArguments></programArguments>
+            <workingDirectory>${build_project_directory}</workingDirectory>
+            <ruleList>
+                <compareText logic="contains" text="${build_project_directory}" value="c:">
+                    <nocase>1</nocase>
+                </compareText>
+            </ruleList>
+        </runProgram>
+    </preBuildActionList>
+    <preInstallationActionList>
+        <showProgressDialog>
+            <title>Waiting for Lightroom to Close</title>
+            <width>400</width>
+            <actionList>
+                <while>
+                    <conditionRuleEvaluationLogic>or</conditionRuleEvaluationLogic>
+                    <progressText>Please close Lightroom before installing Keys.</progressText>
+                    <actionList>
+                        <wait>
+                            <ms>1000</ms>
+                        </wait>
+                    </actionList>
+                    <conditionRuleList>
+                        <processTest>
+                            <logic>is_running</logic>
+                            <name>lightroom.exe</name>
+                        </processTest>
+                        <processTest>
+                            <logic>is_running</logic>
+                            <name>Adobe Lightroom 3</name>
+                        </processTest>
+                        <processTest>
+                            <logic>is_running</logic>
+                            <name>Adobe Photoshop Lightroom 4</name>
+                        </processTest>
+                        <processTest>
+                            <logic>is_running</logic>
+                            <name>Adobe Lightroom</name>
+                        </processTest>
+                    </conditionRuleList>
+                </while>
+            </actionList>
+        </showProgressDialog>
+        <showInfo>
+            <text>Microsoft.Net is out of date. Please install an update.</text>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+                <isFalse>
+                    <value>${dotnet_autodetected}</value>
+                </isFalse>
+            </ruleList>
+        </showInfo>
+        <showProgressDialog>
+            <title>Installing Microsoft.Net 4.0</title>
+            <actionList>
+                <unpackFile>
+                    <component>thirdparty</component>
+                    <destination>${system_temp_directory}/dotNetFx40_Full_x86_x64.exe</destination>
+                    <folder>thirdparty</folder>
+                    <origin>dotNetFx40_Full_x86_x64.exe</origin>
+                </unpackFile>
+                <runProgram>
+                    <abortOnError>0</abortOnError>
+                    <customErrorMessage>The installation of Microsoft.Net was unsuccessful. Please try again, as Keys may not function properly.</customErrorMessage>
+                    <program>${system_temp_directory}/dotNetFx40_Full_x86_x64.exe</program>
+                    <programArguments></programArguments>
+                </runProgram>
+                <deleteFile>
+                    <path>${system_temp_directory}/dotNetFx40_Full_x86_x64.exe</path>
+                </deleteFile>
+            </actionList>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+                <isFalse>
+                    <value>${dotnet_autodetected}</value>
+                </isFalse>
+            </ruleList>
+        </showProgressDialog>
+        <deleteFile>
+            <path>${user_home_directory}/Library/Application Support/VSCOKeys/*.pdf</path>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="osx"/>
+            </ruleList>
+        </deleteFile>
+        <deleteFile>
+            <path>${windows_folder_appdata}\VSCOKeyfiles\*.pdf</path>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </deleteFile>
+    </preInstallationActionList>
+    <postInstallationActionList>
+        <createDirectory>
+            <path>${installdir}/VSCOKeys.lrplugin/apps</path>
+        </createDirectory>
+        <deleteFile path="${project.rollbackBackupDirectory}"/>
+        <createSymLink>
+            <linkName>${installdir}/VSCOKeys.lrplugin/apps/VSCOKeys.app</linkName>
+            <target>${installdir}/VSCOKeys.app</target>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="osx"/>
+            </ruleList>
+        </createSymLink>
+        <createShortcuts>
+            <destination>${installdir}/VSCOKeys.lrplugin/apps/</destination>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+            <shortcutList>
+                <shortcut>
+                    <comment>Launches ${project.fullName}</comment>
+                    <exec></exec>
+                    <icon></icon>
+                    <name>VSCOKeys.exe</name>
+                    <path></path>
+                    <platforms>all</platforms>
+                    <runAsAdmin>0</runAsAdmin>
+                    <runInTerminal>0</runInTerminal>
+                    <windowsExec>${installdir}/VSCOKeys/VSCOKeys.exe</windowsExec>
+                    <windowsExecArgs></windowsExecArgs>
+                    <windowsIcon></windowsIcon>
+                    <windowsPath></windowsPath>
+                </shortcut>
+            </shortcutList>
+        </createShortcuts>
+        <runProgram>
+            <abortOnError>0</abortOnError>
+            <program>netsh</program>
+            <programArguments> advfirewall firewall delete rule name="VSCOKeys" program="${installdir}\VSCOKeys.lrplugin\halfway_server\lua5.1.exe"</programArguments>
+            <showMessageOnError>0</showMessageOnError>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </runProgram>
+        <runProgram>
+            <abortOnError>0</abortOnError>
+            <program>netsh</program>
+            <programArguments> advfirewall firewall add rule name="VSCOKeys" dir=in action=allow program="${installdir}\VSCOKeys.lrplugin\halfway_server\lua5.1.exe" enable=yes</programArguments>
+            <showMessageOnError>0</showMessageOnError>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </runProgram>
+        <registrySet>
+            <key>HKEY_CLASSES_ROOT\.vkeys</key>
+            <name></name>
+            <type>REG_SZ</type>
+            <value>VSCOKeys</value>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registrySet>
+                <registrySet>
+            <key>HKEY_CLASSES_ROOT\.keysjson</key>
+            <name></name>
+            <type>REG_SZ</type>
+            <value>VSCOKeys</value>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registrySet>
+        <registrySet>
+            <key>HKEY_CLASSES_ROOT\VSCOKeys\shell\open\command</key>
+            <name></name>
+            <type>REG_SZ</type>
+            <value>"${installdir}\VSCOKeys\VSCOKeys.exe" "%1"</value>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registrySet>
+        <registrySet>
+            <key>HKEY_LOCAL_MACHINE\SOFTWARE\VSCO\VSCOKeys\DefaultIcon</key>
+            <name></name>
+            <type>REG_SZ</type>
+            <value>${installdir}\VSCOKeys\VSCOKeys.exe,0</value>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registrySet>
+        <registrySet>
+            <key>HKEY_CURRENT_USER\Control Panel\Desktop</key>
+            <name>LowLevelHooksTimeout</name>
+            <type>REG_DWORD</type>
+            <value>0x00001388</value>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registrySet>
+        <writeFile>
+            <path>${windows_folder_startup}\vscostart.bat</path>
+            <text>explorer "${quickstart_url}"
+del "%~f0"</text>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </writeFile>
+    </postInstallationActionList>
+    <preUninstallationActionList>
+        <deleteFile>
+            <path>${installdir}/VSCOKeys.lrplugin/apps</path>
+        </deleteFile>
+        <deleteFile>
+            <path>${installdir}/VSCOKeys.app/VSCOKeys.app</path>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="osx"/>
+            </ruleList>
+        </deleteFile>
+        <deleteFile>
+            <path>${installdir}/VSCOKeys.lrplugin/halfway_server/*.log</path>
+        </deleteFile>
+        <deleteFile>
+            <path>${installdir}/VSCOKeys.lrplugin/skey.key</path>
+        </deleteFile>
+        <deleteFile>
+            <path>${user_home_directory}/Library/Preferences/com.VSCO.VSCOKeys.*</path>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="osx"/>
+            </ruleList>
+        </deleteFile>
+        <deleteFile>
+            <path>${user_home_directory}/Library/Application Support/VSCOKeys</path>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="osx"/>
+            </ruleList>
+        </deleteFile>
+        <deleteFile>
+            <path>${windows_folder_appdata}\VSCOKeyfiles</path>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </deleteFile>
+        <deleteFile>
+            <path>${windows_folder_local_appdata}\VSCOKeys</path>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </deleteFile>
+        <runProgram>
+            <abortOnError>0</abortOnError>
+            <program>netsh</program>
+            <programArguments> advfirewall firewall delete rule name="VSCOKeys" program="${installdir}\VSCOKeys.lrplugin\halfway_server\lua5.1.exe"</programArguments>
+            <showMessageOnError>0</showMessageOnError>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </runProgram>
+        <registryDelete>
+            <key>HKEY_CLASSES_ROOT\.vkeys</key>
+            <name></name>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registryDelete>
+        <registryDelete>
+            <key>HKEY_CLASSES_ROOT\.keysjson</key>
+            <name></name>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registryDelete>
+        <registryDelete>
+            <key>HKEY_CLASSES_ROOT\VSCOKeys\shell\open\command</key>
+            <name></name>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registryDelete>
+        <registryDelete>
+            <key>HKEY_LOCAL_MACHINE\SOFTWARE\VSCO\VSCOKeys\DefaultIcon\</key>
+            <name></name>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registryDelete>
+        <registryDelete>
+            <key>HKEY_CURRENT_USER\Control Panel\Desktop</key>
+            <name>LowLevelHooksTimeout</name>
+            <wowMode>64</wowMode>
+            <ruleList>
+                <compareText logic="equals" text="${platform_name}" value="windows"/>
+            </ruleList>
+        </registryDelete>
+    </preUninstallationActionList>
+    <enableRollback>1</enableRollback>
+    <enableTimestamp>1</enableTimestamp>
+    <osxApplicationBundleIcon>../VSCOKeys/VSCOKeys/keysicon.icns</osxApplicationBundleIcon>
+    <osxApplicationBundleIdentifier>com.vsco.vscokeys1</osxApplicationBundleIdentifier>
+    <osxUninstallerApplicationBundleIcon>../VSCOKeys/VSCOKeys/keysicon.icns</osxUninstallerApplicationBundleIcon>
+    <!-- OUTPUT of installers goes here -->
+    <outputDirectory>../Build</outputDirectory>
+    <customLanguageFileList>
+        <language>
+            <code>en</code>
+            <encoding>utf-8</encoding>
+            <file>custom-en.lng</file>
+        </language>
+    </customLanguageFileList>
+    <productDisplayIcon>${installdir}/VSCOKeys/vscokeys_icon.ico</productDisplayIcon>
+    <rebootRequired>1</rebootRequired>
+    <saveRelativePaths>1</saveRelativePaths>
+    <vendor>Open Source</vendor>
+    <windowsExecutableIcon>vscokeys_icon.ico</windowsExecutableIcon>
+    <windowsUninstallerExecutableIcon>vscokeys_icon.ico</windowsUninstallerExecutableIcon>
+    <parameterList>
+        <directoryParameter>
+            <name>installdir</name>
+            <description>Installer.Parameter.installdir.description</description>
+            <explanation>Installer.Parameter.installdir.explanation</explanation>
+            <value></value>
+            <default>${platform_install_prefix}/${product_shortname}</default>
+            <allowEmptyValue>0</allowEmptyValue>
+            <cliOptionName>prefix</cliOptionName>
+            <mustBeWritable>1</mustBeWritable>
+            <mustExist>0</mustExist>
+            <width>30</width>
+        </directoryParameter>
+    </parameterList>
+</project>
+

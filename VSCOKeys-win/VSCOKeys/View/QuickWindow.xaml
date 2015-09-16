@@ -1,0 +1,19 @@
+﻿<Window x:Class="VSCOKeys.View.QuickWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="QuickWindow" Height="950" Width="1024" MaxWidth="1024" MaxHeight="1024" Closed="Window_Closed" MouseUp="Window_MouseUp" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="#F2FFFFFF" Icon="/VSCOKeys;component/Resources/Images/keysicon_256x256.png" AllowsTransparency="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Center" Text="VSCO KEYS QUICK REFERENCE" Style="{StaticResource proximaText}" VerticalAlignment="Center" FontSize="16" />
+        <ListBox Grid.Row="1" Style="{StaticResource quickCommandListBox}" ItemsSource="{Binding Keys}">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel IsItemsHost="True" Orientation="Vertical" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+    </Grid>
+</Window>

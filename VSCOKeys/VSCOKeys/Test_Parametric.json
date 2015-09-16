@@ -1,0 +1,18 @@
+{
+    "name": "TEST: Parametric panel",
+    "description": "Test file for the Parametric panel",
+    "author": "sean",
+    "uuid": "XXXXXX-XXXXX-XXXXXXT3",
+    "lrVersion": "4",
+    "modeKey": "53",
+    "keys": 
+    [
+        { "mod":"0", "key":"12", "adj" : {"ParametricDarks":"10"} },
+        { "mod":"0", "key":"13", "adj" : {"ParametricLights":"10"} },
+        { "mod":"0", "key":"14", "adj" : {"ParametricShadows":"10"} },
+        { "mod":"0", "key":"15", "adj" : {"ParametricHighlights":"10"} },
+        { "mod":"0", "key":"17", "adj" : {"ParametricHighlightSplit":"10"} },
+        { "mod":"0", "key":"16", "adj" : {"ParametricMidtoneSplit":"10"} },
+        { "mod":"0", "key":"32", "adj" : {"ParametricShadowSplit":"10"} }
+    ]
+}

@@ -1,0 +1,35 @@
+{    
+    "name": "TEST: HSL panel",
+    "description": "Test file for the HSL panel",
+    "author": "sean",
+    "uuid": "XXXXXX-XXXXX-XXXXXXT4",
+    "lrVersion": "4",
+    "modeKey": "53",
+    "keys":
+    [
+        { "mod":"0", "key":"12", "adj" : {"HueAdjustmentRed":"10"} },
+        { "mod":"0", "key":"13", "adj" : {"HueAdjustmentOrange":"10"} },
+        { "mod":"0", "key":"14", "adj" : {"HueAdjustmentYellow":"10"} },
+        { "mod":"0", "key":"15", "adj" : {"HueAdjustmentGreen":"10"} },
+        { "mod":"0", "key":"17", "adj" : {"HueAdjustmentAqua":"10"} },
+        { "mod":"0", "key":"16", "adj" : {"HueAdjustmentBlue":"10"} },
+        { "mod":"0", "key":"32", "adj" : {"HueAdjustmentPurple":"10"} },
+        { "mod":"0", "key":"34", "adj" : {"HueAdjustmentMagenta":"10"} },
+        { "mod":"0", "key":"31", "adj" : {"SaturationAdjustmentRed":"10"} },
+        { "mod":"0", "key":"35", "adj" : {"SaturationAdjustmentOrange":"10"} },
+        { "mod":"0", "key":"0", "adj" : {"SaturationAdjustmentYellow":"10"} },
+        { "mod":"0", "key":"1", "adj" : {"SaturationAdjustmentGreen":"15"} },
+        { "mod":"0", "key":"2", "adj" : {"SaturationAdjustmentAqua":"15"} },
+        { "mod":"0", "key":"3", "adj" : {"SaturationAdjustmentBlue":"15"} },
+        { "mod":"0", "key":"5", "adj" : {"SaturationAdjustmentPurple":"15"} },
+        { "mod":"0", "key":"4", "adj" : {"SaturationAdjustmentMagenta":"15"} },
+        { "mod":"0", "key":"38", "adj" : {"LuminanceAdjustmentRed":"15"} },
+        { "mod":"0", "key":"40", "adj" : {"LuminanceAdjustmentOrange":"15"} },
+        { "mod":"0", "key":"37", "adj" : {"LuminanceAdjustmentYellow":"15"} },
+        { "mod":"0", "key":"6", "adj" : {"LuminanceAdjustmentGreen":"15"} },
+        { "mod":"0", "key":"7", "adj" : {"LuminanceAdjustmentAqua":"15"} },
+        { "mod":"0", "key":"8", "adj" : {"LuminanceAdjustmentBlue":"15"} },
+        { "mod":"0", "key":"9", "adj" : {"LuminanceAdjustmentPurple":"15"} },
+        { "mod":"0", "key":"11", "adj" : {"LuminanceAdjustmentMagenta":"15"} }
+    ]
+}

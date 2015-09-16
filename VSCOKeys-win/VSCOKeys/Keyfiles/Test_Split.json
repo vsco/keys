@@ -1,0 +1,16 @@
+{
+    "name": "TEST: Split toning panel",
+    "description": "Test file for the Split toning panel",
+    "author": "sean",
+    "uuid": "XXXXXX-XXXXX-XXXXXXTG",
+    "lrVersion": "4",
+    "modeKey": "53",
+    "keys":
+    [
+        { "mod":"0", "key":"12", "adj" : {"SplitToningBalance":"10"} },
+        { "mod":"0", "key":"13", "adj" : {"SplitToningHighlightHue":"10"} },
+        { "mod":"0", "key":"14", "adj" : {"SplitToningHighlightSaturation":"10"} },
+        { "mod":"0", "key":"15", "adj" : {"SplitToningShadowHue":"10"} },
+        { "mod":"0", "key":"17", "adj" : {"SplitToningShadowSaturation":"10"} }
+    ]
+}
