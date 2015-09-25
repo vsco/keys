@@ -8,4 +8,4 @@ windows_download_url: https://github.com/vsco/keys/releases/download/v2.0/vscoke
 keys_github_url: https://github.com/vsco/keys
 
 sass:
-  style: expanded
+  style: compressed
