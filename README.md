@@ -6,7 +6,6 @@ In August 2015, it was discontinued as a product for purchase, and is now
 open source and available for free download.
 
 Before downloading Keys, remove any pre-existing versions of VSCO Keys.
-For more on the installation process, see: https://vsco.zendesk.com/hc/en-us/articles/203435590-VSCO-Keys-Compatibility-within-OSX-Yosemite-
 
 ## License
 
