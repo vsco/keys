@@ -1,3 +1,7 @@
+# Support Notice 11/03/2017
+
+Be aware that the new releases of Lightroom have broken Keys functionality.
+
 # Keys
 
 Keys was originally distributed by Visual Supply Company in order to
