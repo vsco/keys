@@ -14,10 +14,15 @@ in [LICENSE](LICENSE).
 
 ## Installing
 
-Go to http://vsco.github.io/keys/ and click the "Download for Windows" or
-"Download for Mac" link, depending on your platform. Unzip the downloaded
-file and double-click the installer. Follow the prompts and it will be
-installed.
+Go to the Releases page, and download the `.zip` file for the [latest release](https://github.com/cajames/keys/releases/latest).
+Unzip the downloaded file and double-click the installer. Follow the prompts and it will be installed.
+
+**On Mac**
+After installing, please be sure to add the `VSCOKeys.app` to have accessibility privileges.
+```
+System Preferences -> Security & Privacy -> Privacy -> Accessibility.
+// Add VSCOKeys.app to that list
+```
 
 ## Contributing
 

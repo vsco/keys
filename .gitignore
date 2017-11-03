@@ -13,3 +13,4 @@ VSCOKeys-win/NotifyIconWpf/bin
 VSCOKeys-win/NotifyIconWpf/obj
 /VSCOKeys-win/VSCOKeys/VSCOKeys.csproj.user
 /Tools/VSCOKeys-win.xml.backup
+*.p12
