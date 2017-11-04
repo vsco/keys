@@ -56,6 +56,7 @@
 #define LIGHTROOM_BUNDLE_LR4 @"com.adobe.Lightroom4"
 #define LIGHTROOM_BUNDLE_LR5 @"com.adobe.Lightroom5"
 #define LIGHTROOM_BUNDLE_LR6 @"com.adobe.Lightroom6"
+#define LIGHTROOM_BUNDLE_LR7 @"com.adobe.LightroomClassicCC7"
 
 #define STATUSBAR_UPDATE_RATE 0.25
 #define APP_RUNNING_UPDATE_RATE 1

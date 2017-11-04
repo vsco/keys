@@ -550,7 +550,7 @@
 
 - (void)initAppList
 {
-    self.appIdList = [NSArray arrayWithObjects:LIGHTROOM_BUNDLE_LR3,LIGHTROOM_BUNDLE_LR4,LIGHTROOM_BUNDLE_LR5,LIGHTROOM_BUNDLE_LR6, nil];
+    self.appIdList = [NSArray arrayWithObjects:LIGHTROOM_BUNDLE_LR3,LIGHTROOM_BUNDLE_LR4,LIGHTROOM_BUNDLE_LR5,LIGHTROOM_BUNDLE_LR6,LIGHTROOM_BUNDLE_LR7, nil];
 }
 
 - (NSRunningApplication*)getLRRunningInstance
@@ -614,7 +614,8 @@
 
     if ([lr.bundleIdentifier caseInsensitiveCompare:LIGHTROOM_BUNDLE_LR4] == NSOrderedSame ||
         [lr.bundleIdentifier caseInsensitiveCompare:LIGHTROOM_BUNDLE_LR5] == NSOrderedSame ||
-        [lr.bundleIdentifier caseInsensitiveCompare:LIGHTROOM_BUNDLE_LR6] == NSOrderedSame)
+        [lr.bundleIdentifier caseInsensitiveCompare:LIGHTROOM_BUNDLE_LR6] == NSOrderedSame ||
+        [lr.bundleIdentifier caseInsensitiveCompare:LIGHTROOM_BUNDLE_LR7] == NSOrderedSame)
     {
         return LRVERSION_LR4;
     }
