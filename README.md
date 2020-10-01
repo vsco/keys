@@ -2,7 +2,7 @@
 
 Be aware that the new releases of Lightroom have broken Keys functionality.
 
-# Keys
+# Keys (Creative and smart way to use Photoshop And Lightroom)
 
 Keys was originally distributed by Visual Supply Company in order to
 give users a speed boost when editing images in Adobe Photoshop Lightroom.
